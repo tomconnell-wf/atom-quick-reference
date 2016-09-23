@@ -4,7 +4,7 @@ An abridged list of atom hotkeys. The list includes those keys I find to be the:
 
 1. hardest to remember
 2. biggest time savers
-3. plain interesting combos
+3. most interesting
 
 Obvious and unhelpful combos are not in this reference. The full list of shortcuts for the core and all your packages is in Settings > Keybindings.
 
@@ -108,7 +108,7 @@ shift-cmd-enter    | editor:newline-above                       | Core
 ## Misc
 
 Keystroke    | Command                                | Source
------------- | -------------------------------------- | ------------------
+------------ | -------------------------------------- | -------------------
 alt-_        | navigation-history:forward             | Navigation History
 alt--        | navigation-history:back                | Navigation History
 alt-cmd-q    | autoflow:reflow-selection              | Autoflow
@@ -120,6 +120,7 @@ alt-g i      | open-on-github:issues                  | Open On GitHub
 alt-g o      | open-on-github:file                    | Open On GitHub
 alt-g r      | open-on-github:branch-compare          | Open On GitHub
 alt-left     | tree-view:recursive-collapse-directory | Tree View
+cmd-.        | key-binding-resolver:toggle            | Keybinding Resolver
 cmd-shift-   | tree-view:reveal-active-file           | Tree View
 ctrl-alt-b   | atom-beautify:beautify-editor          | Atom Beautify
 ctrl-b       | git-blame:toggle                       | Git Blame
