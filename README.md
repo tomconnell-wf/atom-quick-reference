@@ -1,6 +1,12 @@
 # atom-quick-reference
 
-An abridged list of atom hotkeys. The list includes those keys I find to be, first, the hardest to remember, and second, the biggest time savers.  Obvious and unhelpful combos are not in this reference. The full list of shortcuts for the core and all your packages is in Settings > Keybindings.
+An abridged list of atom hotkeys. The list includes those keys I find to be the:
+
+1. hardest to remember
+2. biggest time savers
+3. plain interesting combos
+
+Obvious and unhelpful combos are not in this reference. The full list of shortcuts for the core and all your packages is in Settings > Keybindings.
 
 ## Dartlang
 
@@ -98,3 +104,27 @@ shift-cmd-D        | editor:duplicate-lines                     | Core
 shift-cmd-L        | editor:split-selections-into-lines         | Core
 shift-cmd-T        | pane:reopen-closed-item                    | Core
 shift-cmd-enter    | editor:newline-above                       | Core
+
+## Misc
+
+Keystroke    | Command                                | Source
+------------ | -------------------------------------- | ------------------
+alt-_        | navigation-history:forward             | Navigation History
+alt--        | navigation-history:back                | Navigation History
+alt-cmd-q    | autoflow:reflow-selection              | Autoflow
+alt-g b      | open-on-github:blame                   | Open On GitHub
+alt-g c      | open-on-github:copy-url                | Open On GitHub
+alt-g g      | open-on-github:repository              | Open On GitHub
+alt-g h      | open-on-github:history                 | Open On GitHub
+alt-g i      | open-on-github:issues                  | Open On GitHub
+alt-g o      | open-on-github:file                    | Open On GitHub
+alt-g r      | open-on-github:branch-compare          | Open On GitHub
+alt-left     | tree-view:recursive-collapse-directory | Tree View
+cmd-shift-   | tree-view:reveal-active-file           | Tree View
+ctrl-alt-b   | atom-beautify:beautify-editor          | Atom Beautify
+ctrl-b       | git-blame:toggle                       | Git Blame
+ctrl-cmd-m   | bracket-matcher:select-inside-brackets | Bracket Matcher
+ctrl-m       | bracket-matcher:go-to-matching-bracket | Bracket Matcher
+ctrl-shift-M | markdown-preview:toggle                | Markdown Preview
+f5           | sort-lines:sort                        | Sort Lines
+shift-enter  | jumpy:toggle                           | Jumpy
