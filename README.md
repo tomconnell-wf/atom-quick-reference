@@ -124,6 +124,7 @@ cmd-.        | key-binding-resolver:toggle            | Keybinding Resolver
 cmd-shift-   | tree-view:reveal-active-file           | Tree View
 ctrl-alt-b   | atom-beautify:beautify-editor          | Atom Beautify
 ctrl-b       | git-blame:toggle                       | Git Blame
+ctrl-cmd-g   | find-and-replace:select-all            | Find And Replace
 ctrl-cmd-m   | bracket-matcher:select-inside-brackets | Bracket Matcher
 ctrl-m       | bracket-matcher:go-to-matching-bracket | Bracket Matcher
 ctrl-shift-M | markdown-preview:toggle                | Markdown Preview
